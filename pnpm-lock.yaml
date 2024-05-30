@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       puppeteer-core:
-        specifier: ^22.9.0
-        version: 22.9.0
+        specifier: ^22.10.0
+        version: 22.10.0
 
 packages:
 
@@ -240,8 +240,8 @@ packages:
   pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==, tarball: https://registry.npmmirror.com/pump/-/pump-3.0.0.tgz}
 
-  puppeteer-core@22.9.0:
-    resolution: {integrity: sha512-Q2SYVZ1SIE7jCd/Pp+1/mNLFtdJfGvAF+CqOTDG8HcCNCiBvoXfopXfOfMHQ/FueXhGfJW/I6DartWv6QzpNGg==, tarball: https://registry.npmmirror.com/puppeteer-core/-/puppeteer-core-22.9.0.tgz}
+  puppeteer-core@22.10.0:
+    resolution: {integrity: sha512-I54J4Vy4I07UHsgB1QSmuFoF7KNQjJWcvFBPhtY+ezMdBfwgGDr8dzYrJa11aPgP9kxIUHjhktcMmmfJkOAtTw==, tarball: https://registry.npmmirror.com/puppeteer-core/-/puppeteer-core-22.10.0.tgz}
     engines: {node: '>=18'}
 
   queue-tick@1.0.1:
@@ -613,7 +613,7 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
-  puppeteer-core@22.9.0:
+  puppeteer-core@22.10.0:
     dependencies:
       '@puppeteer/browsers': 2.2.3
       chromium-bidi: 0.5.19(devtools-protocol@0.0.1286932)
